@@ -19,14 +19,18 @@ width:100%;
 background-color:crimson;
 display:flex;
 color: white;
-justify-content:space-between;
+justify-content:space-around;
 align-items:center;
 flex-direction: row; 
+padding:10px 80px;
+letter-spacing:0.5px;
+font-family:'Poppins',sans-serif;
+font-size:18px;
 }
 
 .nav-menu {
   color: white;
-  padding: 10px 20px;
+  text-decoration:none;
   transition: all ease 0.5s;
 }
 
@@ -56,21 +60,17 @@ font-size:20px;
   align-items: center;
 }
 
-.about-img {
-  width: 25rem;
-  height: 20rem;
-  border-radius: 10px;
-  box-shadow: -12px 12px 22px rgba(0, 0, 0, 0.781);
-}
 
 .about-text {
   color: crimson;
+
 }
 
 .about-des {
   color: white;
-  font-size: 1.5rem;
-  text-align:center;
+  font-size: 1.4rem;
+  
+  
 }
 
 
